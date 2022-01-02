@@ -1,3 +1,6 @@
+Credits to bandexcoin - project, we restored all needed files for running this exchange software.
+visit our site here
+[**https://bandexcoin.com**](http://bandexcoin.com)
 # OpenTrade
 OpenTrade is an open source OEMS, and algorithmic trading platform, designed for simplicity, flexibility and performance. 
 
