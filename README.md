@@ -48,7 +48,7 @@ OpenTrade is an open source OEMS, and algorithmic trading platform, designed for
   ```
   * Build
   ```bash
-  git clone https://github.com/bandexcoin-project/opentrade-1
+  git clone https://github.com/bandexcoin-project/opentrade-2022
   cd opentrade
   make debug
   ```
