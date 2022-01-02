@@ -47,7 +47,7 @@ OpenTrade is an open source OEMS, and algorithmic trading platform, designed for
   ```
   * Build
   ```bash
-  git clone https://github.com/opentradesolutions/opentrade
+  git clone https://github.com/bandexcoin-project/opentrade-1
   cd opentrade
   make debug
   ```
@@ -57,7 +57,7 @@ OpenTrade is an open source OEMS, and algorithmic trading platform, designed for
    sudo apt remove --purge postgres*
    sudo apt autoremove
    sudo apt install -y postgresql-10 postgresql-contrib postgresql-client
-   wget https://github.com/opentradesolutions/data/raw/master/opentrade-pg_dumpall.sql
+   wget https://github.com/bandexcoin-project/data-1/raw/master/opentrade-pg_dumpall.sql
    sudo -u postgres psql -f opentrade-pg_dumpall.sql postgres
    ```
  
@@ -65,9 +65,9 @@ OpenTrade is an open source OEMS, and algorithmic trading platform, designed for
    * Download tick data files
    ```bash
    cd opentrade
-   wget https://raw.githubusercontent.com/opentradesolutions/data/master/bbgids.txt
-   wget https://github.com/opentradesolutions/data/raw/master/ticks.txt.xz.part1
-   wget https://github.com/opentradesolutions/data/raw/master/ticks.txt.xz.part2
+   wget https://github.com/bandexcoin-project/data-1/raw/master/bbgids.txt
+   wget https://bandexcoin.com/downloads/ticks.txt
+   
    cat ticks.txt.xz.part1 ticks.txt.xz.part2 > ticks.txt.xz
    xz -d ticks.txt.xz
    ```
@@ -84,4 +84,4 @@ OpenTrade is an open source OEMS, and algorithmic trading platform, designed for
    ```
    
 # The other OS system
-  we prepared [Dockfile-dev](https://raw.githubusercontent.com/opentradesolutions/opentrade/master/Dockfile-dev) for you.
+  we prepared [Dockfile-dev](https://raw.githubusercontent.com/opentradesolutions/opentrade/master/Dockfile-dev) for you. (don't found this file back yet on the internet)
