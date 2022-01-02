@@ -73,9 +73,6 @@ OpenTrade is an open source OEMS, and algorithmic trading platform, designed for
    cd opentrade
    wget https://github.com/bandexcoin-project/data-1/raw/master/bbgids.txt
    wget https://bandexcoin.com/downloads/ticks.txt
-   
-   cat ticks.txt.xz.part1 ticks.txt.xz.part2 > ticks.txt.xz
-   xz -d ticks.txt.xz
    ```
    * Run
    ```Bash
