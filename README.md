@@ -1,4 +1,4 @@
-Credits to bandexcoin - project, we restored all needed files for running this exchange software.
+Credits to bandexcoin-project, we restored all needed files for running this exchange software.
 visit our site here
 [**https://bandexcoin.com**](http://bandexcoin.com)
 # OpenTrade
