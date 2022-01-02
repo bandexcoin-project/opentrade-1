@@ -51,7 +51,7 @@ OpenTrade is an open source OEMS, and algorithmic trading platform, designed for
   sudo adduser opentrade
   usermod -aG sudo opentrade
   su opentrade
-  cd $
+  cd  
   git clone https://github.com/bandexcoin-project/opentrade-2022
   mv opentrade-2022 opentrade
   cd opentrade
